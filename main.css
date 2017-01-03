@@ -1,0 +1,60 @@
+body {
+	background-color: black;
+    transition: background 0.5s linear;
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+
+}
+
+.container-fluid {
+	background: white;
+	margin: 10% 30%;
+	border-radius: 7px;
+	color: black;
+}
+
+#card {
+	font-family: 'Dosis', cursive;
+	font-size: 200%;
+	padding: 30px;
+}
+
+.text {
+}
+
+#quote {
+	quotes: "\201C""\201D""\2018""\2019";
+}
+
+#quote:before {
+	content: open-quote;
+	font-size: 90px;
+  	line-height: 0.1em;
+  	margin-right: 10px;
+  	vertical-align: -0.4em;
+}
+
+button {
+	background:black;
+	color:white;
+    transition: background 0.5s linear;
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+}
+
+.btn {
+	font-size: 20px;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.btn:hover {
+	color:white;
+}
+
+#author {
+	float:right;
+	font-size: 20px;
+}
