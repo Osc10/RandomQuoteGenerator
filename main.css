@@ -58,3 +58,14 @@ button {
 	float:right;
 	font-size: 20px;
 }
+
+a {
+	float:right;
+	color:white;
+	background:black;
+	height:40px;
+	width:40px	;
+	border-radius:100px;
+	text-align:center;
+	margin-top:1%;
+}
